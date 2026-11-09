@@ -1,0 +1,37 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+**/crime/
+**/crime2/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+
+# Other
+.DS_Store
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Incomplete downloads
+*.part
+
+# Uploads
+backend_v2/uploads/*
+!backend_v2/uploads/.gitkeep
